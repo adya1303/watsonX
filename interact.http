@@ -1,0 +1,26 @@
+POST http://169.51.200.134:30007
+content-type: application/json
+#uthorization: {{token}}
+
+{
+    "msg": "What is kubenetes?" 
+}
+
+###
+
+POST http://127.0.0.1:5000
+content-type: application/json
+#uthorization: {{token}}
+
+{
+    "msg": "How to create kubernetes secrets?" 
+}
+
+###
+POST http://169.51.200.134:30007
+content-type: application/json
+#uthorization: {{token}}
+
+{
+    "msg": "How to create kubernetes secrets?" 
+}
